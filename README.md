@@ -1,4 +1,4 @@
-# My Digital Clock Module
+# Digital Clock Module
 
 ## Description
 This Verilog module acts as a configurable digital clock. It's designed to demonstrate a robust use of Verilog in creating a timekeeping device that includes seconds, minutes, and hours counters with additional features for time tuning and adjustment.
