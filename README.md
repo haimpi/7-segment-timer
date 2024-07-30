@@ -1,11 +1,11 @@
 # My Digital Clock Module
 
 ## Description
-This repository contains a Verilog module designed to function as a digital clock. The module is capable of counting hours, minutes, and seconds, and features a mode to tune these counters for adjustment. It's suitable for educational purposes and for use in practical FPGA projects where time tracking is necessary.
+This Verilog module acts as a configurable digital clock. It's designed to demonstrate a robust use of Verilog in creating a timekeeping device that includes seconds, minutes, and hours counters with additional features for time tuning and adjustment.
 
 ## Features
-- **Time Counting:** Accurately tracks hours, minutes, and seconds.
-- **Tuning Mode:** Allows the user to freeze and manually adjust the time counters.
-- **Mode Switching:** Toggle between adjusting hours and minutes.
-- **Increment Button:** Manual adjustment of the currently selected time counter.
-- **Seven-Segment Display Output:** Converts time counters to signals for a seven-segment display.
+- **Accurate Timekeeping**: Counts seconds, minutes, and hours up to predefined limits.
+- **Tuning Capability**: Allows for the counters to be frozen for manual adjustment, ideal for calibration or testing.
+- **Mode Switching**: Toggle between hour and minute adjustment modes using a simple switch input.
+- **Incremental Adjustment**: Utilizes a button to increment the selected time counter.
+- **Seven-Segment Display Decoder**: Converts binary time values into signals compatible with a seven-segment display for easy visualization.
