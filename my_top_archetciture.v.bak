@@ -1,0 +1,55 @@
+module my_counter (
+
+input clock,
+
+input resetn,
+
+//input enable,
+
+input [3:0] counter, 
+
+//output  reg [1:0] counter
+
+output reg signal_gen
+
+);
+
+
+//signals
+
+//start design
+ 
+always @ (posedge clock or negedge resetn)
+
+begin
+
+  if(resetn == 1'b0) begin
+
+    signal_gen <= 1'b0;
+
+   end  
+
+   else begin
+	
+	if(counter >= 4'b0000 && counter <= 4'b0111) begin
+		
+		signal_gen <= 1'b1;
+		
+	end
+	else begin
+	
+		signal_gen <= 1'b0;
+		
+	end
+	//	if(enable == 1'b1) begin
+
+	//		counter <= counter + 1'b1;
+	//	end
+			
+   end 
+
+end
+
+//end design 
+ 
+endmodule
