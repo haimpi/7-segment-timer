@@ -1,7 +1,8 @@
 # Digital Clock Module
 
 ## Description
-This Verilog module acts as a configurable digital clock. It's designed to demonstrate a robust use of Verilog in creating a timekeeping device that includes seconds, minutes, and hours counters with additional features for time tuning and adjustment.
+This Verilog module serves as a configurable digital clock, showcasing the robust capabilities of Verilog in creating a device that tracks seconds, minutes, and hours with additional tuning features. It is specifically developed and tested on the DE10-Standard FPGA Development Board for optimal performance and compatibility.
+
 
 ## Features
 - **Accurate Timekeeping**: Counts seconds, minutes, and hours up to predefined limits.
